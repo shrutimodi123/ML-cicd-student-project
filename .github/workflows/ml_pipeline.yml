@@ -31,7 +31,7 @@ jobs:
         run: python src/train.py
 
       - name: Evaluate the model
-        run: python src/evaluate.py
+        run: python src/predict.py
 
       - name: Upload model artifact
         uses: actions/upload-artifact@v4
